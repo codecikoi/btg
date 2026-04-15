@@ -444,7 +444,7 @@
           <p class="section__sub">Let's discuss your project and prepare a proposal</p>
         </div>
         <div class="contacts contacts--single">
-          <form class="contacts__form" action="https://formsubmit.co/u9920651903@gmail.com" method="POST">
+          <form class="contacts__form" id="contact-form" action="https://formsubmit.co/ajax/u9920651903@gmail.com" method="POST">
             <input type="hidden" name="_subject" value="New inquiry from BTG website" />
             <input type="hidden" name="_captcha" value="false" />
             <label>
@@ -460,6 +460,7 @@
               <textarea name="message" rows="5" required placeholder="Tell us about your project"></textarea>
             </label>
             <button type="submit" class="btn btn--gradient btn--block">Send message</button>
+            <p class="contacts__notice" id="contact-form-notice" hidden></p>
           </form>
         </div>
       </div>
