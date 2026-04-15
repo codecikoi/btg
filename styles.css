@@ -20,7 +20,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+  font-family: 'Satoshi', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif;
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
